@@ -1,11 +1,18 @@
+body {
+  background-color: #2F2933;
+  color: white;
+  font-family:'helvetica';
+}
 table {
   margin: 0 auto;
   border-radius:10px;
+  background-color: white;
+  padding: 17px;
 }
 td {
-  border: 1px solid grey;
-  width: 200px;
-  height: 200px;
+  border: 2px solid #505050;
+  width: 160px;
+  height: 160px;
   text-align: center;
   font-size: 8em;
   box-sizing:border-box;
@@ -42,14 +49,30 @@ tfoot tr td{
 }
 
 #reset {
+  margin-top: 10px;
   padding: 5px;
   width: 400px;
   font-size: 1.5em;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
+  color:white;
+  background-color: #c4c4c4;
 }
 
 #reset:hover{
-  background: #b8bdee;
-  border-color: white;
+  background: #29D9C2;
+}
+
+.box {
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.x {
+  background-color: #ed495f;
+}
+
+.o {
+  background-color: #6fdaed;
 }
